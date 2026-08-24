@@ -1,0 +1,8 @@
+.side-nav { display: flex; flex-direction: column; }
+.nav-label { margin: 0 12px 9px; color: #749287; font-family: 'DM Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; }
+.nav-label-spaced { margin-top: 28px; }
+.nav-link { display: flex; align-items: center; gap: 12px; min-height: 40px; padding: 0 12px; border-radius: 6px; color: #afc2b7; text-decoration: none; font-size: 12px; font-weight: 600; }
+.nav-link:hover, .nav-link.active { color: #fff; background: #2b5044; }
+.nav-icon { display: inline-grid; width: 17px; place-items: center; color: #91b0a1; font-family: 'DM Mono', monospace; font-size: 15px; }
+.nav-link.active .nav-icon { color: var(--lime); }
+.nav-count { margin-left: auto; padding: 3px 7px; border-radius: 10px; color: #a9c3b6; background: #315548; font-family: 'DM Mono', monospace; font-size: 9px; }
